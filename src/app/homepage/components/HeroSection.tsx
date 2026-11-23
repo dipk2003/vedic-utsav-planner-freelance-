@@ -3,6 +3,7 @@ import AppImage from '@/components/ui/AppImage';
 import { useLanguage } from '@/lib/i18n';
 import { useSiteContent } from '@/lib/site-content';
 import { useRouter } from 'next/navigation';
+import { CinematicMotion, CinematicScene } from '@/components/cinematic/Cinematic';
 
 export default function HeroSection() {
   const { t } = useLanguage();
@@ -56,6 +57,8 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
       </div>
 
+      <CinematicScene preset="festive" />
+      <CinematicMotion accent="#d4af37" />
       {/* Top Badges */}
       <nav className="absolute top-0 left-0 right-0 z-50 px-6 md:px-10 py-8 flex flex-wrap justify-between items-start gap-3 md:gap-4 animate-enter delay-500">
         <div className="flex items-center gap-3">
