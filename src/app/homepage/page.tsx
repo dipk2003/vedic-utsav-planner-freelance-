@@ -7,6 +7,7 @@ import ProcessSection from './components/ProcessSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import ContactFormSection from './components/ContactFormSection';
 import Footer from '@/components/common/Footer';
+import CinematicStory from '@/components/cinematic/CinematicStory';
 
 
 export default function Homepage() {
@@ -31,6 +32,7 @@ export default function Homepage() {
   return (
     <main className="min-h-screen bg-background overflow-x-hidden">
       <HeroSection />
+      <CinematicStory world="banquet" accent="#d4af37" label="Walk through a Vedic Utsav celebration" />
       <ServicesSection />
       <PortfolioSection />
       <ProcessSection />
