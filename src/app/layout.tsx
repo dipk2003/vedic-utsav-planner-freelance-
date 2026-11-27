@@ -71,7 +71,7 @@ export default function RootLayout({
     !!gaMeasurementId && gaMeasurementId !== 'your-google-analytics-id-here';
 
   return (
-    <html lang="en">
+    <html lang="en"><head><link rel="stylesheet" href="/_scene/fonts.css" /></head>
       <body>
         <LanguageProvider>
           {children}
@@ -95,7 +95,7 @@ export default function RootLayout({
         )}
         <script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2FVaidikUtsav2254back.builtwithrocket.new&_be=https%3A%2F%2Fappanalytics.rocket.new&_v=0.1.17" />
         <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.2" />
-      </body>
+      <a id="dipanshudev-branding" href="https://dipanshudev.com/templates/vedic-utsav/branding" target="_blank" rel="noopener noreferrer" style={{position:"fixed",right:12,bottom:12,zIndex:2147483646,padding:"9px 13px",background:"#203f31",color:"white",font:"500 11px/1.5 Arial,sans-serif",borderRadius:5,textDecoration:"none"}}>Built with DipanshuDev ↗</a></body>
     </html>
   );
 }

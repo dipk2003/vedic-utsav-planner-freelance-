@@ -30,7 +30,7 @@ export default function Homepage() {
   }, [])
 
   return (
-    <main className="min-h-screen bg-background overflow-x-hidden">
+    <main className="min-h-screen bg-background overflow-x-clip">
       <HeroSection />
       <CinematicStory world="banquet" accent="#d4af37" label="Walk through a Vedic Utsav celebration" />
       <ServicesSection />
